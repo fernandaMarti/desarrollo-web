@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contacto</title>
+        <link
+            rel="shortcut icon"
+            href="../assets/imagenes/favicon-16x16.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../css/normalize.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/estilo.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="../index.html"
+                                    >INICIO</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="nosotros.html"
+                                    >NOSOTROS</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="estilodevida.html"
+                                    >ESTILO DE VIDA</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="mashogar.html"
+                                    >MAS HOGAR</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html"
+                                    >CONTACTO</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="tienda.html"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    TIENDA
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="tienda.html"
+                                            >Decoración</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="tienda.html"
+                                            >Iluminación</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="tienda.html"
+                                            >Muebles</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h2 class="contacto">¿Quieres contactar con nosotros?</h2>
+                <p>
+                    Rellena el siguiente formulario con tu nombre, dirección de
+                    email y envíanos tu consulta.<br />
+                    También puedes enviarnos un email a :
+                    <b>hola@bohouse.com</b> <br />
+
+                    <em>Te contestaremos lo más rápido posible.</em>
+                </p>
+            </div>
+            <div>
+                <img
+                    src="../assets/imagenes/contacto.jpg"
+                    width="100%"
+                    alt="computadora"
+                    title="contactame"
+                />
+            </div>
+
+            <form action="">
+                <fieldset class="vector">
+                    <legend>Formulario de contacto</legend>
+                    <div>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label for="Email">Email</label>
+                        <input type="Email" />
+                    </div>
+                    <div>
+                        <label for="msg">Comentario:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+
+              
+        </main>
+        <aside>
+            <img src="../assets/imagenes/publicidad.jpg" alt="publicidad" />
+        </aside>
+        <footer>
+            <p>BOHOUSE&Co.Copyright © 2022</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+
+    
+</html>
