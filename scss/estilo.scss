@@ -224,6 +224,9 @@ form {
 .carousel-item {
     width: 780px;
     height: 580px;
+    p{
+        text-align: center;
+    }
 }
 .negrita {
     font-weight: bolder;
@@ -233,3 +236,8 @@ form {
     margin: 20px;
 }
 
+section {
+    p{
+        text-align: justify;
+    }
+}
