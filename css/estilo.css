@@ -108,11 +108,10 @@ form {
     background-color: #9f80a5;
     cursor: pointer; }
 
-@media screen and (min-width: 768px) {
-  body {
-    grid-template-areas: "header     header" "main       aside" "footer     footer"; }
-  .texto-imagen li {
-    flex-wrap: nowrap; } }
+.seccion1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .seccion ul {
   display: flex;
@@ -121,10 +120,6 @@ form {
   background-image: url("../assets/imagenes/tienda1.jpg");
   background-size: 100%;
   justify-content: center; }
-
-.seccion1 {
-  display: flex;
-  align-items: center; }
 
 .nav-item a {
   justify-items: flex-end;
@@ -183,3 +178,11 @@ section {
     text-align: justify; }
   section img {
     margin-bottom: 20px; }
+
+@media screen and (min-width: 992px) {
+  body {
+    grid-template-areas: "header     header" "main       aside" "footer     footer"; }
+  .texto-imagen li {
+    flex-wrap: nowrap; }
+  .seccion1 {
+    flex-direction: row; } }
