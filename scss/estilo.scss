@@ -209,9 +209,8 @@ form {
 .card {
     display: flex;
     flex-wrap: wrap;
-    border: solid 5px;
-    border-color: rgb(118, 113, 113);
-    border-style: double;
+    border-color:#76717130 ;
+    box-shadow: -1px 2px 3px #c8c3c3 ;
     max-width: 200px;
 }
 
