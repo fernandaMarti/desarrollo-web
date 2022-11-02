@@ -94,9 +94,8 @@ p {
 }
 
 .centrada {
-    margin: 0 auto;
+    margin: 0 auto 30px;
     display: block;
-    max-width: 500px;
     width: 100%;
 }
 
@@ -237,7 +236,11 @@ form {
 }
 
 section {
+    margin-bottom: 40px;
     p{
         text-align: justify;
+    }
+    img {
+        margin-bottom: 20px;
     }
 }
