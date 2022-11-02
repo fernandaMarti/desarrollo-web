@@ -180,13 +180,21 @@ form {
     align-items: center;
 }
 
-.nav-item a {
-    justify-items: flex-end;
-    text-align: end;
-    text-decoration-color: black;
-    font-size: medium;
-    color: #fefefe;
+.nav-item {
+    a{
+        justify-items: flex-end;
+        text-align: end;
+        text-decoration-color: black;
+        font-size: medium;
+        color: #fefefe;
+        &.dropdown-item {
+            color: black;
+        }
+    }
+
+    
 }
+
 .cartas {
     display: flex;
     font-size: medium;

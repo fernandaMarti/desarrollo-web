@@ -128,6 +128,8 @@ form {
   text-decoration-color: black;
   font-size: medium;
   color: #fefefe; }
+  .nav-item a.dropdown-item {
+    color: black; }
 
 .cartas {
   display: flex;
