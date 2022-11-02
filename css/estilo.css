@@ -98,6 +98,10 @@ form {
   margin-bottom: 40px; }
   form fieldset div {
     margin-bottom: 10px; }
+    form fieldset div input {
+      width: 100%; }
+    form fieldset div textarea {
+      width: 100%; }
   form button {
     border: none;
     padding: 5px 10px;
