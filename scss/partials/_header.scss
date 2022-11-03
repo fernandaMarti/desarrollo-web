@@ -1,0 +1,39 @@
+header {
+    background-color: #9f80a5;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 30;
+    grid-area: header;
+    ul{
+        display: flex;
+        margin: 0;
+        li {
+            list-style: none;
+            margin-right: 20px;
+            &:hover{
+                background-color: whitesmoke;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(24, 20, 20);
+                text-transform: uppercase;
+            }
+        }
+
+    }
+    .nav-item {
+        a{
+            justify-items: flex-end;
+            text-align: end;
+            text-decoration-color: black;
+            font-size: medium;
+            color: #fefefe;
+            &.dropdown-item {
+                color: black;
+            }
+        }
+    
+        
+    }
+}
