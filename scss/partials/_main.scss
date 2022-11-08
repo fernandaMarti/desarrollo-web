@@ -50,17 +50,24 @@ main {
     }
 
     .texto-imagen {
+
         li {
             display: flex;
             gap: 20px;
             margin-bottom: 40px;
             flex-wrap: wrap;
+
+            @media screen and (min-width: 992px) {
+                flex-wrap: nowrap;
+            }
+            
             @media screen and (max-width: 450px) {
                 img {
                     width: 100%;
                 }
             }
         }
+
     }
 
     h2.contacto {
@@ -111,7 +118,6 @@ main {
     .cartas {
         display: flex;
         flex-wrap: wrap;
-        font-size: medium;
         justify-content: space-around;
     }
     .card {
@@ -158,9 +164,6 @@ main {
         margin-bottom: 40px;
         p {
             text-align: justify;
-        }
-        img {
-            margin-bottom: 20px;
         }
     }
     .nav-item {

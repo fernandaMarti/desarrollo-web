@@ -35,10 +35,21 @@ body {
             "main       aside"
             "footer     footer";
     }
-    .texto-imagen li {
-        flex-wrap: nowrap;
-    }
+
     .seccion1{
         flex-direction: row;
+    }
+}
+
+
+$colores: (
+    blanco: #fefefe,
+    violeta: #9f80a5,
+    negro: rgb(0, 0, 0),
+);
+
+@each $color, $valor in $colores {
+    .color-#{$color}{
+        color: $valor;
     }
 }

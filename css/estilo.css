@@ -27,9 +27,7 @@ body {
     body header .nav-item a {
       justify-items: flex-end;
       text-align: end;
-      text-decoration-color: black;
-      font-size: medium;
-      color: #fefefe; }
+      font-size: medium; }
       body header .nav-item a.dropdown-item {
         color: black; }
   body main {
@@ -72,6 +70,9 @@ body {
       gap: 20px;
       margin-bottom: 40px;
       flex-wrap: wrap; }
+      @media screen and (min-width: 992px) {
+        body main .texto-imagen li {
+          flex-wrap: nowrap; } }
       @media screen and (max-width: 450px) {
         body main .texto-imagen li img {
           width: 100%; } }
@@ -107,7 +108,6 @@ body {
     body main .cartas {
       display: flex;
       flex-wrap: wrap;
-      font-size: medium;
       justify-content: space-around; }
     body main .card {
       display: flex;
@@ -141,8 +141,6 @@ body {
       margin-bottom: 40px; }
       body main section p {
         text-align: justify; }
-      body main section img {
-        margin-bottom: 20px; }
     body main .nav-item a {
       justify-items: flex-end;
       text-align: end;
@@ -169,7 +167,14 @@ body {
 @media screen and (min-width: 992px) {
   body {
     grid-template-areas: "header     header" "main       aside" "footer     footer"; }
-  .texto-imagen li {
-    flex-wrap: nowrap; }
   .seccion1 {
     flex-direction: row; } }
+
+.color-blanco {
+  color: #fefefe; }
+
+.color-violeta {
+  color: #9f80a5; }
+
+.color-negro {
+  color: black; }
