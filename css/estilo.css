@@ -30,6 +30,8 @@ body {
       font-size: medium; }
       body header .nav-item a.dropdown-item {
         color: black; }
+        body header .nav-item a.dropdown-item:active {
+          background-color: #00000020; }
   body main {
     max-width: 800px;
     margin: 0 auto;

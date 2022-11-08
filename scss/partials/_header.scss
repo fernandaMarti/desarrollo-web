@@ -29,6 +29,9 @@ header {
             font-size: medium;
             &.dropdown-item {
                 color: black;
+                &:active{
+                    background-color: #00000020;
+                }
             }
         }
     
