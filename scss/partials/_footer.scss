@@ -1,8 +1,14 @@
 footer {
+    display: flex;
     background-color: $color-principal;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 10px 0px;
     grid-area: footer;
     color: #fefefe;
+    padding: 20px;
+    p{
+        margin: 0;
+    }
 }
 

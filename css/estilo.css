@@ -157,11 +157,16 @@ body {
     body aside img {
       width: 100%; }
   body footer {
+    display: flex;
     background-color: #9f80a5;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 10px 0px;
     grid-area: footer;
-    color: #fefefe; }
+    color: #fefefe;
+    padding: 20px; }
+    body footer p {
+      margin: 0; }
   @media screen and (min-width: 768px) {
     body {
       grid-template-areas: "header     header" "main       aside" "footer     footer"; } }
